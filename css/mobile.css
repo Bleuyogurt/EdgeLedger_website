@@ -1,0 +1,48 @@
+#navbar .container {
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#what .items {
+  display: block;
+  padding: 1rem;
+}
+
+/* Utility custom */
+
+.lead {
+  font-size: 2.6rem;
+}
+
+.text-medium {
+  font-size: 1rem;
+}
+.m-heading {
+  font-size: 2rem;
+}
+
+/* Align icons to the left */
+#what .items .item {
+  display: flex;
+  text-align: left;
+
+  margin-bottom: 2rem;
+}
+
+/* position icon */
+
+#what .items .item i {
+  padding: 1rem;
+  margin-right: 1rem;
+  align-self: center;
+  margin-bottom: 0;
+}
+
+/* Who section */
+
+#who .who-image,
+#contact .contact-image {
+  display: none;
+}
